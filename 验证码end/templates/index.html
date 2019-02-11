@@ -1,0 +1,12 @@
+<html>
+<head></head>
+<body>
+<script src="https://recaptcha.google.cn/recaptcha/api.js"></script>	
+<form method="POST" action="{{ url_for('register')
+
+    }}">
+	{{ form.hidden_tag() }}
+	<div class="g-recaptcha" data-sitekey="6Lcss5AUAAAAAOa4o7RjcV3NlQE2nR8XTFqPWoxg"></div>
+</form>
+</body>
+</html>
